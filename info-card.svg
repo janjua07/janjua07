@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="470" viewBox="0 0 490 470" role="img" aria-labelledby="title desc">
+<title id="title">Ren operator card</title>
+<desc id="desc">An animated terminal card describing Ren as a creative operator building Mexasoft and owned systems.</desc>
+<style>
+  .eyebrow { fill:#ff224f; font:700 11px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:2px; }
+  .name { fill:#f7f2ee; font:800 31px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:1px; }
+  .key { fill:#ff224f; font:700 11px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:1px; }
+  .value { fill:#ddd5d0; font:500 14px ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .line { animation:reveal .5s cubic-bezier(.2,.8,.2,1) both; }
+  .l0{animation-delay:.25s} .l1{animation-delay:.40s} .l2{animation-delay:.55s}
+  .l3{animation-delay:.70s} .l4{animation-delay:.85s} .l5{animation-delay:1s} .l6{animation-delay:1.15s}
+  @keyframes reveal { from { opacity:0; transform:translate(0 8px); } to { opacity:1; transform:translate(0 0); } }
+  @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+  .pulse { animation:pulse 1.7s ease-in-out infinite; }
+</style>
+<rect width="490" height="470" rx="18" fill="#0b0b0f" />
+<path d="M0 0H180L145 18H0Z M490 470H310L345 452H490Z" fill="#d81035" />
+<rect x="9" y="9" width="472" height="452" rx="13" fill="none" stroke="#47101d" />
+<text x="30" y="42" class="eyebrow">WHOAMI // PUBLIC BUILD</text>
+<text x="30" y="79" class="name">REN<tspan fill="#ff224f">_</tspan></text>
+<circle class="pulse" cx="454" cy="39" r="5" fill="#ff224f" />
+<path d="M30 94H460" stroke="#3b1720" />
+<g class="line l0">
+  <text x="34" y="118" class="key">IDENTITY</text>
+  <text x="164" y="118" class="value">Ren</text>
+</g><g class="line l1">
+  <text x="34" y="161" class="key">CLASS</text>
+  <text x="164" y="161" class="value">Creative operator</text>
+</g><g class="line l2">
+  <text x="34" y="204" class="key">BUILDING</text>
+  <text x="164" y="204" class="value">Mexasoft</text>
+</g><g class="line l3">
+  <text x="34" y="247" class="key">SYSTEMS</text>
+  <text x="164" y="247" class="value">Hermes · Figma · Shopify</text>
+</g><g class="line l4">
+  <text x="34" y="290" class="key">GITHUB</text>
+  <text x="164" y="290" class="value">The canvas, not the job</text>
+</g><g class="line l5">
+  <text x="34" y="333" class="key">AFTER HOURS</text>
+  <text x="164" y="333" class="value">Persona · JRPGs · long runs</text>
+</g><g class="line l6">
+  <text x="34" y="376" class="key">RULE</text>
+  <text x="164" y="376" class="value">Own the system. Skip the template.</text>
+</g>
+<path d="M30 426H460" stroke="#3b1720" />
+<text x="30" y="449" class="eyebrow">STATUS: BUILDING THE NEXT VERSION</text>
+</svg>
