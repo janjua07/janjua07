@@ -1,12 +1,12 @@
 {
   "username": "janjua07",
-  "fetched_at": "2026-09-01T08:31:36.136865+00:00",
-  "total": 1,
+  "fetched_at": "2026-09-02T11:23:03.000591+00:00",
+  "total": 4,
   "current_streak": 0,
   "longest_streak": 1,
   "best_day": {
-    "date": "2026-07-30",
-    "count": 1,
+    "date": "2026-09-01",
+    "count": 3,
     "level": 4
   },
   "days": [
@@ -1678,7 +1678,7 @@
     {
       "date": "2026-07-30",
       "count": 1,
-      "level": 4
+      "level": 2
     },
     {
       "date": "2026-07-31",
@@ -1842,6 +1842,11 @@
     },
     {
       "date": "2026-09-01",
+      "count": 3,
+      "level": 4
+    },
+    {
+      "date": "2026-09-02",
       "count": 0,
       "level": 0
     }
